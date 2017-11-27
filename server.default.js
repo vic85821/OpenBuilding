@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const app = express()
 const port = 8181
 const MongoClient = require('mongodb').MongoClient;
-const dbPath = "mongodb://wp2017_groupb:openbuilding2017@luffy.ee.ncku.edu.tw:27017/wp2017_groupb";
+const dbPath = "mongodb://your_db_account:your_db_pwd@your_db_ip:27017/your_db_name";
 
 app.listen(port)
 app.use(express.static(__dirname + '/public'))
